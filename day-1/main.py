@@ -5,7 +5,7 @@ print("print('what to print')")
 
 print("-----------")
 # Manipulate 3 lines of the print method to one line print method
-# by adding \n at every end of the paragraph
+# by adding \n at every end of the paragraph and wrap like this
 print("Day 1 - Python Print Function\n"
       "The function is declared like this:\n"
       "print('what to print')")
