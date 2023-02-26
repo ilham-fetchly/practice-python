@@ -1,5 +1,5 @@
-## Personal practice project ##
-## Program to compare the hour input with current hour time ##
+# Personal practice project ##
+# Program to compare the hour input with current hour time ##
 from datetime import datetime
 print("Welcome to the Daylight Checker.")
 
