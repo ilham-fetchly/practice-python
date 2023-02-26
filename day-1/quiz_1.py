@@ -12,24 +12,30 @@ elif score > 60:
 else:
     print("D")
 
+
 # question 4
 def outer_function(a, b):
     def inner_function(c, d):
         return c + d
     return inner_function(a, b)
 
+
 result = outer_function(5, 10)
 print(result)
+
 
 # question 8
 def foo(a, b=4, c=6):
     print(a, b, c)
 
+
 foo(20, c=12)
 
-# questio 9
+
+# question 9
 def all_board(a, *arg, **kw):
     print(a, arg, kw)
+
 
 all_board(4, 7, 3, 0, x=10, y=64)
 
